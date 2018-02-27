@@ -6,7 +6,7 @@ http://120.78.142.165:3000/#/index/home（移动端效果更佳）
 1.克隆项目地址并下载（需要安装Git）
 
 
-git clone git@github.com:liumiemie/react-One.git
+git clone git@github.com:xiaoxiaoxian123/react-One.git
 
 2.通过npm安装本地服务第三方依赖模块（需要安装Node.js）
 
