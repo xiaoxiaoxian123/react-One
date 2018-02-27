@@ -1,0 +1,161 @@
+/*阅读页样式*/
+.reading_list{
+	background: #f6f6f6;
+}
+.reading_item_text{
+	background: #ffffff;
+    margin: 0 0 8px 0;
+    box-shadow: 0 1px 0 0 rgba(230, 230, 230, 0.5);
+}
+.reading_list p{
+	margin: 5px 20px;
+}
+.reading_text_tag{
+	color: rgba(0, 0, 0, 0.6);
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 0 16px 0;
+}
+.reading_text_title{
+	font-size: 22px;
+    line-height: 22px;
+    max-height: 44px;
+    margin-top: 0;
+    color: black;
+    font-weight: bold;
+}
+.reading_text_title a{
+	text-decoration: none;
+    font-weight: normal;
+    color: inherit;
+}
+.reading_text_author{
+	font-size: 16px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5px;
+    padding: 0 40px 0 0;
+}
+.reading_text_cover_img{
+	margin: 10px 20px;
+    width: 280px;
+    height: 200px;
+    background-size: cover;
+    overflow: hidden;
+}
+.reading_text_cover_img img{
+	width: 100%;
+	height: 100%;
+}
+.reading_text_content_short {
+	font-size: 14px;
+    line-height: 30px;
+    max-height: 60px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 12px;
+}
+.reading_list .reading_item_text .reading_date{
+	font-size: 10px;
+    line-height: 22px;
+    padding: 12px 0 30px 0;
+    color: #808080;
+    text-align: left;
+}
+/*阅读详情页样式*/
+.detail_text{
+	margin: 20px;
+}
+.detail_text img{
+	text-align: center;
+    max-width: 100%;
+}
+.detail_text_title{
+	color: black;
+    font-size: 28px;
+    margin: 30px 0px 0 0px;
+    font-weight: bold;
+}
+.detail_sort_separate_line{
+	margin-top: 15px;
+}
+.detail_sort_separate_line15{
+	border: 2px solid #000;
+    margin: 7px 0 7px 0px;
+    width: 70px;
+}
+.detail_text_author {
+    color: black;
+    font-size: 13px;
+    margin-top: 14px;
+}
+.detail_text_content{
+	line-height: 26px;
+    margin-top: 14px;
+    margin: 0 0 20px 0;
+    text-align: justify;
+}
+.detail_text_content p{
+	text-align: justify;
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 30px !important;
+    margin: 0 0 20px 0;
+}
+.detail_text_content .one-image-note {
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+.detail_text_content .one-image-note-text {
+    line-height: 18px;
+    margin-top: -22px;
+    margin-left: 18px;
+}
+.detail_text_content .one-image-note-text-inner {
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    margin-top: -14px;
+    line-height: 20px;
+    color: #808080 !important;
+    word-break: break-all;
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 0;
+}
+.detail_text_content p.fr_pspace_a1{
+	margin-bottom: 10px;
+}
+.detail_text_content p.fr_pspace_a0{
+	margin-bottom: 0;
+}
+.detail_text_content p.last_page{
+	margin-bottom: 94px;
+}
+/*阅读详情页底部样式*/
+.footer{
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #808080;
+	font-size: 16px;
+	background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.footer span{
+	display: flex;
+	height: 45px;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+.footer a{
+	display: flex;height: 45px;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	color: #666;
+}

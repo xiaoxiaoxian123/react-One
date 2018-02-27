@@ -1,0 +1,127 @@
+body,h3,p{
+	margin: 0;
+}
+/*影视列表页*/
+.xvideo{
+	width: 100%;margin-bottom: 62px;
+}
+.videos{
+	display: block;
+	padding: 0 20px;
+	margin-bottom: 10px;
+}
+.videos header{
+	width: 100%;height: 50px;
+	font: 18px/50px "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+	color: #666;
+}
+.videos .title{
+	width: 100%;
+	font: 22px/30px "微软雅黑";
+	color: #333;
+}
+.videos b{
+	display: block;
+	height: 30px;
+	font-size: 18px;
+	color: #666;
+	font-weight: normal;
+}
+.videos .img-bg{
+	width: 100%;
+	padding: 30px 0;
+	background: url(../public/img/movie-list-background.png);
+	background-size: 100% 100%;
+}
+.videos .img-bg img{
+	width: 100%;
+}
+.videos .cont{
+	width: 100%;
+	color: #666;
+	font-size: 16px;
+}
+.videos .cont span{
+	display: block;
+	line-height: 22px;
+}
+.videos .cont em{
+	display: block;
+	text-align: right;
+	line-height: 22px;
+	font-style: normal;
+}
+.videos .times{
+	color: #808080;
+	line-height: 28px;
+	display: block;
+	font-size: 16px;
+}
+/*影视详情页*/
+.vdetail{
+	width: 100%;
+	margin-bottom: 62px;
+}
+.vdetail .title{
+	width: 100%;
+}
+.vdetail .title img{
+	width: 100%;
+}
+.vdetail .title h3{
+	font:800 28px/36px "微软雅黑";
+	color: #000;
+	padding: 50px 20px 0;
+}
+.vdetail .title h3 em{
+	display: block;
+	font:500 18px/26px "微软雅黑";
+	margin: 10px 0;
+}
+.vdetail .title span{
+	display: block;
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.vdetail .cont{
+	padding: 0 20px; 
+}
+.vdetail .cont p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #666;
+	line-height: 30px;
+}
+.vdetail .cont img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+/*底部样式*/
+.vfooter{
+	width: 100%;height: 60px;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	border-top: 1px solid #808080;
+	font-size: 18px;
+}
+.vfooter button{
+	display: flex;height: 60px;
+	border: 0;outline: none;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	background-color:rgba(255, 255, 255, 0.9)
+}
+.vfooter a{
+	display: flex;height: 60px;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	color: #666;
+}
