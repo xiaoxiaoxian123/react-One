@@ -5,20 +5,20 @@ class Xfooter extends React.Component {
     this.state = {
     	imgArr:[
     		{
-    			staticImg:"/img/home.png",
-    			activeImg:"/img/home_active.png"
+    			staticImg:"http://120.78.142.165:3000/img/home.png",
+    			activeImg:"http://120.78.142.165:3000/img/home_active.png"
     		},
     		{
-    			staticImg:"/img/reading.png",
-    			activeImg:"/img/reading_active.png"
+    			staticImg:"http://120.78.142.165:3000/img/reading.png",
+    			activeImg:"http://120.78.142.165:3000/img/reading_active.png"
     		},
     		{
-    			staticImg:"/img/music.png",
-    			activeImg:"/img/music_active.png"
+    			staticImg:"http://120.78.142.165:3000/img/music.png",
+    			activeImg:"http://120.78.142.165:3000/img/music_active.png"
     		},
     		{
-    			staticImg:"/img/movie.png",
-    			activeImg:"/img/movie_active.png"
+    			staticImg:"http://120.78.142.165:3000/img/movie.png",
+    			activeImg:"http://120.78.142.165:3000/img/movie_active.png"
     		}
     	],
     	selectId:0
