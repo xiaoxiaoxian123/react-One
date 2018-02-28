@@ -13,7 +13,7 @@ import $ from "jQuery";
 			<div>
 				<div className="header-bg">
 					<div className="bgimg">
-						<img src="/img/logo.jpg" style={{width:'100%'}}/>
+						<img src="http://120.78.142.165:3000/img/logo.jpg" style={{width:'100%'}}/>
 					</div>
 				</div>
 			<div className="content">
