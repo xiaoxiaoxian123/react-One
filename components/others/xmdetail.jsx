@@ -18,7 +18,8 @@ class Xmdetail extends React.Component{
         	search:'',
         	showDailog:false,
         	showDailog2:false,
-        	loginBox:false
+        	loginBox:false,
+		icon:require(../../public/img/music.jpg)
         }
     }
 	render(){
@@ -282,7 +283,7 @@ class Xmdetail extends React.Component{
     				content:_this.state.search,
     				name:sessionStorage.getItem("name"),
     				time:new Date().toLocaleTimeString(),
-    				icon:"/img/music1.jpg"
+    				icon:_this.state.icon
     			},
     			success(data){					
 					$.ajax({
