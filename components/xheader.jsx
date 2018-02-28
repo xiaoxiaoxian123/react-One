@@ -27,7 +27,7 @@ export default class Xheader extends React.Component {
       <ul className="sideMenu" style={{display:this.state.isShowUl?'block':'none'}}>
       	<li><a href="#">App下载</a></li>
       	<li><a href="#">关于</a></li>
-      	<li><img src={'/img/close.png'} onClick={this.hideUl.bind(this)} style={{width:'35px'}}/></li>
+      	<li><img src={'http://120.78.142.165:3000/img/close.png'} onClick={this.hideUl.bind(this)} style={{width:'35px'}}/></li>
       </ul>
       <div className="search_box" style={{display:this.state.isShowInput?'block':'none'}}>
 	      <div className="search_input" >
