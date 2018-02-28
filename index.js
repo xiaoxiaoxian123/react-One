@@ -64,7 +64,7 @@ ReactDOM.render(
                 <Route path="/index" component={Xindex}></Route>
                 <Route path="/picdetail/:id" component={Xpicturedetail}></Route>   
 				<Route path="/vdetail" component={Xvdetail}></Route>
-				<Route path="/login" component={Xlogin}></Route>
+				<Route exact path="/" component={Xlogin}></Route>
             </div>
         </Router>
     </Provider>
