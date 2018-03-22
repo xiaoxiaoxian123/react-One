@@ -74,7 +74,6 @@ export default connect((state) => {
 }, (dispatch) => {
 	return {
 		toNext(){
-			console.log("tonext",this.props.videoId)
 			if(this.props.videoId<this.props.vlength){
 				dispatch({
 					type:"toNext",
@@ -87,7 +86,6 @@ export default connect((state) => {
 			}
 		},
 		toPrev(){
-			console.log("toprev",this.props.videoId)
 			if(this.props.videoId>1){
 				dispatch({
 					type:"toPrev",
