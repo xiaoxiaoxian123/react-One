@@ -54,7 +54,7 @@ class Xmovie extends React.Component {
 						arr:data,
 						vlength:data.length
 					})
-					console.log(_this.state)
+					
 				},
 				error(){
 					console.log('error');
